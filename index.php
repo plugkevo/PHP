@@ -27,10 +27,11 @@ echo "CAT: " .$programMarks["CAT "] ;
 $webTechnologies =array(
     'frontend'=>array( ' HTML ', 'CSS', ' JS ',' Bootstrap '),
     'backend'=>array(' PHP ', ' JS ', ' python ',' java'),
-    'database'=>array(' mnysql ', ' postgresql ',' mangoDB ',' firebase ')
+    'database'=>array(' mysql ', ' postgresql ',' mangoDB ',' firebase ')
 );
 echo $webTechnologies['frontend'][2];
 echo $webTechnologies['backend'][0];
 echo $webTechnologies['database'][2];
+
 ?>
 
